@@ -15,7 +15,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch(console.error);
 
-// Modelss
+// Models
 const Todo = require("./models/Todo");
 
 app.get("/todos", async (req, res) => {
